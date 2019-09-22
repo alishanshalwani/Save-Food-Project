@@ -167,6 +167,51 @@
                             <h5>Food and Health Tips </h5>
                             <b>Find the latest updated content here!</b>
                         </div>
+                       
+                       
+
+
+						<div class="modal fade" id="orangeModalSubscription" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+							aria-hidden="true">
+							<div class="modal-dialog modal-notify modal-warning" role="document">
+								<!--Content-->
+								<div class="modal-content">
+									<!--Header-->
+									<div class="modal-header text-center">
+										<h4 class="modal-title white-text w-100 font-weight-bold py-2 "><b>Add Health Tips</b></h4>
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close" style="border-radius: 3px 3px 0 0;">
+											<span aria-hidden="true" class="white-text">&times;</span>
+										</button>
+									</div>
+
+									<!--Body-->
+									<div class="modal-body">
+										<div class="form-group">
+
+											<label class="control-label">Title</label>
+											<input type="text" class="form-control" id="title">
+										</div>
+
+										<div class="md-form">
+											<div class="form-group">
+												<label class="control-label">Post</label>
+												<textarea class="form-control" rows="5" id="post"></textarea>
+											</div>
+										</div>
+
+
+										<div class="md-form">
+											<div class="form-group">
+												<!-- Date input -->
+												<label class="control-label" for="date">Date</label>
+												<input class="form-control" id="date" name="date" placeholder="MM/DD/YYY" type="text" />
+											</div>
+										</div>
+
+
+									</div>
+               
+                       
                         <ul class="list-group list-group-flush">
                             <li class="list-group-item">Test text</li>
                         </ul>
